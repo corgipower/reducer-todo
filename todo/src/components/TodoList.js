@@ -1,9 +1,9 @@
 import React from 'react';
 
-function TodoForm() {
+function TodoList() {
     return(
-        <p>todo form</p>
+        <p>todo list</p>
     )
 }
 
-export default TodoForm;
+export default TodoList;
