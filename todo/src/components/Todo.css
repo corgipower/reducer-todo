@@ -1,0 +1,98 @@
+/* css reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end css reset */
+
+body {
+    font-size:62.5%;
+}
+
+.wrapper {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    font-size: 1.6rem;
+    padding-bottom: .5rem;
+}
+
+p:nth-child(odd) {
+    background-color: gold;
+}
+
+p:nth-child(even) {
+    background-color: teal;
+}
+
+form {
+    padding-bottom: .5rem;
+    background-color: green;
+    max-height: 50px;
+    padding: 2%;
+}
+
+input {
+    height: 30px;
+}
+
+button {
+    margin-left: .5rem;
+    height: 30px;
+    background-color: gold;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
